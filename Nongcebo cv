@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nongcebo Tsabedze - Professional CV</title>
+    <style>
+        /* Mobile-First CV Design */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        }
+        
+        body {
+            background: #f0f4f8;
+            color: #333;
+            line-height: 1.5;
+            padding: 15px;
+            max-width: 100%;
+        }
+        
+        .cv {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,102,204,0.1);
+            padding: 20px;
+            margin: 0 auto;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #0066cc;
+            margin-bottom: 20px;
+        }
+        
+        .name {
+            color: #0066cc;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            color: #555;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.9rem;
+        }
+        
+        .contact span {
+            background: #e6f2ff;
+            padding: 5px 10px;
+            border-radius: 15px;
+            color: #0066cc;
+        }
+        
+        /* Sections */
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            color: #0066cc;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        /* Items */
+        .item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-left: 3px solid #0066cc;
+            background: #f9f9f9;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .item-title {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .item-subtitle {
+            color: #0066cc;
+            font-size: 0.9rem;
+        }
+        
+        .item-date {
+            color: #666;
+            font-size: 0.85rem;
+            margin-top: 3px;
+        }
+        
+        .item-desc {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            color: #444;
+        }
+        
+        .item-desc li {
+            margin-left: 20px;
+            margin-bottom: 3px;
+        }
+        
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        
+        .skill {
+            background: #0066cc;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        
+        /* References */
+        .ref {
+            background: #f0f8ff;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 3px solid #0066cc;
+        }
+        
+        .ref-name {
+            font-weight: 600;
+            color: #0066cc;
+        }
+        
+        .ref-title {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        
+        .ref-email {
+            font-size: 0.85rem;
+            color: #666;
+            word-break: break-all;
+        }
+        
+        /* Print Button */
+        .print-btn {
+            display: block;
+            width: 100%;
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 20px 0;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .print-btn {
+                display: none;
+            }
+            
+            .cv {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv">
+        <!-- Header -->
+        <div class="header">
+            <h1 class="name">Nongcebo Sinenhlanhla Tsabedze</h1>
+            <p class="title">BSc Biology & Chemistry Student | Water Science Specialist</p>
+            <div class="contact">
+                <span>📍 University of Eswatini</span>
+                <span>📧 tsabedzenongcebo@gmail.com</span>
+                <span>📱 +268 7917 1631</span>
+            </div>
+        </div>
+        
+        <!-- Summary -->
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p class="item-desc">Dedicated final-year BSc student specializing in Biology & Chemistry with hands-on laboratory and fieldwork experience in water quality analysis. Passionate about addressing water resource challenges through scientific research and innovation.</p>
+        </div>
+        
+        <!-- Education -->
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            
+            <div class="item">
+                <div class="item-title">Bachelor of Science in Biology & Chemistry</div>
+                <div class="item-subtitle">University of Eswatini</div>
+                <div class="item-date">2021 - Present</div>
+                <div class="item-desc">Relevant coursework: Environmental Chemistry, Microbiology, Analytical Chemistry, Ecology, Hydrology</div>
+            </div>
+            
+            <div class="item">
+                <div class="item-title">Swaziland General Certificate of Secondary Education (SGCSE)</div>
+                <div class="item-subtitle">St Anne's High School</div>
+                <div class="item-date">2020</div>
+            </div>
+        </div>
+        
+        <!-- Experience -->
+        <div class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="item">
+                <div class="item-title">Laboratory Intern</div>
+                <div class="item-subtitle">Department of Water Affairs Laboratory, Ministry of Natural Resources and Energy, Mbabane</div>
+                <div class="item-date">June 30 - September 1, 2025</div>
+                <ul class="item-desc">
+                    <li>Conducted physicochemical and microbiological water analysis</li>
+                    <li>Operated lab equipment: spectrophotometers, pH/EC meters, incubators</li>
+                    <li>Participated in Mkhondvo River biomonitoring activity</li>
+                    <li>Prepared water quality reports and performed data entry</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Research -->
+        <div class="section">
+            <h2 class="section-title">Research Project</h2>
+            
+            <div class="item">
+                <div class="item-title">Microbial Assessment of Groundwater in Hhohho Region</div>
+                <div class="item-subtitle">Final Year Project | University of Eswatini</div>
+                <div class="item-date">Currently Ongoing</div>
+                <ul class="item-desc">
+                    <li>Assessing E. coli contamination in groundwater sources</li>
+                    <li>Using membrane filtration and culture methods</li>
+                    <li>Analyzing contamination risks and environmental factors</li>
+                    <li>Developing skills in research design and data interpretation</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Skills -->
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <span class="skill">Water Quality Testing</span>
+                <span class="skill">Microbiology</span>
+                <span class="skill">Laboratory Analysis</span>
+                <span class="skill">Biomonitoring</span>
+                <span class="skill">Data Analysis</span>
+                <span class="skill">Environmental Sampling</span>
+                <span class="skill">Scientific Reporting</span>
+                <span class="skill">Team Collaboration</span>
+                <span class="skill">Microsoft Office</span>
+                <span class="skill">Analytical Thinking</span>
+            </div>
+        </div>
+        
+        <!-- References -->
+        <div class="section">
+            <h2 class="section-title">References</h2>
+            
+            <div class="ref">
+                <div class="ref-name">Dr. Siphesihle Magagula</div>
+                <div class="ref-title">Lecturer, University of Eswatini</div>
+                <div class="ref-email">Email: magagulasihle20@gmail.com</div>
+            </div>
+            
+            <div class="ref">
+                <div class="ref-name">Ms. Khosi Shongwe</div>
+                <div class="ref-title">Laboratory Technician, Department of Water Affairs</div>
+                <div class="ref-email">Email: kho.si@live.com</div>
+            </div>
+        </div>
+        
+        <!-- Print Button -->
+        <a href="javascript:window.print()" class="print-btn">📄 Save as PDF / Print CV</a>
+        
+        <p style="text-align: center; color: #666; font-size: 0.9rem; margin-top: 10px;">
+            Tap button above to save as PDF for WetSkills application
+        </p>
+    </div>
+    
+    <script>
+        // Simple script for mobile functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Make print button more mobile-friendly
+            const printBtn = document.querySelector('.print-btn');
+            printBtn.addEventListener('click', function() {
+                alert('On mobile: Select "Save as PDF" when printer options appear.');
+            });
+            
+            // Add tap effect on items
+            const items = document.querySelectorAll('.item');
+            items.forEach(item => {
+                item.addEventListener('click', function() {
+                    this.style.transform = 'scale(0.99)';
+                    setTimeout(() => {
+                        this.style.transform = 'scale(1)';
+                    }, 150);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
